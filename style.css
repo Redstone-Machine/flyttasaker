@@ -1,0 +1,31 @@
+body {
+    display: grid;
+    min-height: 100vh;
+    overflow: hidden;
+} 
+
+.bild {  
+    max-width: 20%;  
+    height: auto;
+    transition: all 0.5s;
+    }  
+.LeftUp {
+    align-self: start;
+    justify-self: start;
+    transform: rotate(30deg);
+}
+.LeftDown {
+    align-self: end;
+    justify-self: start;
+    transform: rotate(-30deg);
+}
+.RightUp {
+    align-self: start;
+    justify-self: end;
+    transform: rotate(150deg);
+}
+.RightDown {
+    align-self: end;
+    justify-self: end;
+    transform: rotate(-150deg);
+}
