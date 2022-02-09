@@ -7,7 +7,7 @@ body {
 .bild {  
     max-width: 30%;  
     height: auto;
-    transition: all 0.5s;
+    transition: all 1s;
     }  
 .LeftUp {
     align-self: start;
